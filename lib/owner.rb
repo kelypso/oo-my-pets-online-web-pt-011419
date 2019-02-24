@@ -28,7 +28,10 @@ class Owner
   end
   
   def walk_dogs
-    @pets.e
+    @pets.collect do |species, dog|
+      if species == dog
+        dog.mood = "happy"
+        
   end
   
   def play_with_cats
