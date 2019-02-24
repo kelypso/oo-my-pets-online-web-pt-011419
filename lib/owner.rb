@@ -70,7 +70,7 @@ class Owner
     fish = @pets[:fishes].size
     cats = @pets[:cats].size
     dogs = @pets[:dogs].size
-    return "I have #{fish} fish, #{dogs} dog(s), and #{cats} cat(s)."
+    "I have #{fish} fish, #{dogs} dog(s), and #{cats} cat(s)."
   end
   
   # Class Methods
