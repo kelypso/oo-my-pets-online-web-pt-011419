@@ -57,6 +57,14 @@ class Owner
     end
   end
   
+  def sell_pets
+    
+  end
+  
+  def list_pets
+    
+  end
+  
   # Class Methods
   def self.all
     @@all
