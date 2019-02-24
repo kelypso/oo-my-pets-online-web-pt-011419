@@ -67,7 +67,7 @@ class Owner
   end
   
   def list_pets
-    
+    cats = @cats
   end
   
   # Class Methods
