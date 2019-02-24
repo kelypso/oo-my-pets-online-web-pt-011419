@@ -48,7 +48,13 @@ class Owner
   end
 
   def feed_fish
-    
+    @pets.collect do |species, fish|
+      if species == :fishes
+        fish.each do |name|
+          name.mood = "happy"
+        end
+      end
+    end
   end
   
   # Class Methods
